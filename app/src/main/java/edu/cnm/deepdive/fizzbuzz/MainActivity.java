@@ -55,7 +55,6 @@ public class MainActivity extends AppCompatActivity {
   protected void onResume() {
     Log.d("Trace", "Entering onResume");
     super.onResume();
-
     Log.d("Trace", "Leaving onResume");
 
   }
@@ -63,9 +62,7 @@ public class MainActivity extends AppCompatActivity {
   @Override
   protected void onPause() {
     Log.d("Trace", "Entering onPause");
-
     super.onPause();
-
     Log.d("Trace", "Leaving onPause");
   }
 
